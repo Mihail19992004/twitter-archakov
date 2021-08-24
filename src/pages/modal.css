@@ -1,0 +1,47 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainBlock{
+    width: 30%;
+
+    background: white;
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.input_block {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.input_block > input {
+    height: 30px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.btn-block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.btn-block > button {
+    background: blue;
+    margin: 10px;
+
+    border-radius: 20px;
+}
